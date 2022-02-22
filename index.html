@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <header>
+          <img src="images/logo.svg" alt="PING" />
+          <div class="text-wrapper">
+            <h1><span>We are launching</span> soon!</h1>
+            <p>Subscribe and get notified</p>
+          </div>
+        </header>
+        <div class="form-wrapper">
+          <form
+            action="index.html"
+            class="email-form"
+            autocomplete="off"
+            novalidate
+          >
+            <div class="input-wrapper">
+              <input
+                type="email"
+                id="email"
+                class="input-field"
+                autocomplete="off"
+                minlength="4"
+                required
+              />
+              <label class="label" for="email">Your email address</label>
+              <p class="warning">Please enter a valid email address</p>
+            </div>
+            <input type="submit" value="Notify Me" class="btn">
+          </form>
+        </div>
+        <div class="image-wrapper">
+          <img src="images/illustration-dashboard.png" alt="" aria-hidden="true">
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p> &copy; Copyright Ping. All rights reserved.</p>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
