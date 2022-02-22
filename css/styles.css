@@ -274,10 +274,10 @@ footer p:last-child a:hover {
     }
 
     header p {
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
 
     footer {
-        font-size: .95rem;
+        font-size: 1rem;
     }
 }
